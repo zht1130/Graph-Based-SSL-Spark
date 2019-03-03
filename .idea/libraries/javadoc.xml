@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/source/jgrapht-core/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/source/jgrapht-core/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/source/jgrapht-demo/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/source/jgrapht-ext/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/source/jgrapht-ext/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/source/jgrapht-guava/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/source/jgrapht-guava/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/source/jgrapht-io/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/source/jgrapht-io/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/source/jgrapht-opt/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/jgrapht-1.3.0/source/jgrapht-opt/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
