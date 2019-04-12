@@ -1,0 +1,9 @@
+@relation /home/isaac/Dropbox/keelssl/dista/skin_nonskin/skin_nonsking
+@attribute B integer [0, 255]
+@attribute G integer [0, 255]
+@attribute R integer [0, 255]
+@attribute class integer {1, 2}
+@inputs B, G, R
+@outputs class
+@data
+

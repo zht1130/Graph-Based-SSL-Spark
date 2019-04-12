@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact name="Graph-Based-SSL-Spark:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Graph_Based_SSL_Spark_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Graph-Based-SSL-Spark.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="Graph-Based-SSL-Spark-build" />
+        <element id="module-output" name="Graph-Based-SSL-Spark" />
+      </element>
+      <element id="library" level="module" name="sbt: unmanaged-sources-and-docs" module-name="Graph-Based-SSL-Spark" />
+      <element id="library" level="project" name="sbt: org.jgrapht:jgrapht-core:1.3.0:jar" />
+    </root>
+  </artifact>
+</component>
