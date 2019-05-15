@@ -26,16 +26,17 @@ object run {
     val rawPath = args(1)
     val traPath = args(2)
     val writePath = args(3)
-    val algorithm = args(4)
-    val k = args(5).toInt
-    val maxIter = args(6).toInt
-    val numPartitions = args(7).toInt
+    val graphAlgorithm = args(4)
+    val inferringAlgorithm = args(5)
+    val k = args(6).toInt
+    val maxIter = args(7).toInt
+    val numPartitions = args(8).toInt
 
 
     var mu1: Double = 1.0
     var mu2: Double = 0.5
     var mu3: Double = 1.0
-    if (algorithm == "mad") {
+    if (inferringAlgorithm == "mad") {
       mu1 = args(8).toInt
       mu2 = args(9).toInt
       mu3 = args(10).toInt
@@ -47,18 +48,26 @@ object run {
     val trainingDF = dataProcessor.generateNormalizedDataFrame(traPath,numPartitions)
 
     // Graph Construction
-    val g = knnGraph(trainingDF).bruteForce(k).persist()
+    var g: Option[Graph[knnVertex, Double]] = None
+//    val g = knnGraph(trainingDF).bruteForce(k).persist()
+
+    if (graphAlgorithm == "approximate") {
+      g = Some(knnGraph(trainingDF).approximate(k).persist())
+    } else {
+      g = Some(knnGraph(trainingDF).bruteForce(k).persist())
+    }
+
 
     // Learning and Inference
     var gs: Option[Graph[Option[Int], Double]] = None
     val dummyLabels = dataProcessor.dummyLabels
 
-    if (algorithm == "adsorption") {
-      gs = Some(adsorption(g, dummyLabels).run(maxIter).persist())
-    } else if (algorithm == "mad") {
-      gs = Some(MAD(g, dummyLabels, mu1, mu2, mu3).run(maxIter).persist())
+    if (inferringAlgorithm == "adsorption") {
+      gs = Some(adsorption(g.get, dummyLabels).run(maxIter).persist())
+    } else if (inferringAlgorithm == "mad") {
+      gs = Some(MAD(g.get, dummyLabels, mu1, mu2, mu3).run(maxIter).persist())
     } else {
-      gs = Some(labelPropagation(g).run(maxIter).persist())
+      gs = Some(labelPropagation(g.get).run(maxIter).persist())
     }
 
     // Get result of labelled data

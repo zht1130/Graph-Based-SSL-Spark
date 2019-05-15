@@ -2,106 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="hello1" />
+      <artifact name="jarPackage" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b9174ed-3686-4253-b41e-e0803d423b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/local/run.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2de34d700070084a8205$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2de34d700070084a8205.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2de34d700070084a8205.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49b90c806a876c17dae2$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49b90c806a876c17dae2.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49b90c806a876c17dae2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6f6fce71e308bf6dba17$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6f6fce71e308bf6dba17.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6f6fce71e308bf6dba17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8e70947ba150635ec06e$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8e70947ba150635ec06e.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8e70947ba150635ec06e.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$90871bc437b5f91a0355$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$90871bc437b5f91a0355.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$90871bc437b5f91a0355.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb686ad1c2ccb95cdce9$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb686ad1c2ccb95cdce9.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb686ad1c2ccb95cdce9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/graph-based-ssl-spark-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/graph-based-ssl-spark-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/graph-based-ssl-spark-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/graph-based-ssl-spark-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-graph-based-ssl-spark-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/skin1.data" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/skin1.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/global/g.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/global/g.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/global/gs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/global/gs.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/global/runLP.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/global/run.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/global/util/DataProcessor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/global/util/DataProcessor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/local/runLP.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/MAD$$anonfun$run$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/MAD$$anonfun$run$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/MAD$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/MAD$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/MAD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/MAD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/adsorption$$anonfun$entropy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/adsorption$$anonfun$entropy$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/adsorption$$anonfun$estimatedLabel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/adsorption$$anonfun$estimatedLabel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/adsorption$$anonfun$run$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/adsorption$$anonfun$run$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/adsorption$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/adsorption$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/adsorption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/algorithm/adsorption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/g$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/g$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/g$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/g$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/g$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/g$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/g$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/g$$anonfun$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/g$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/g$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/g$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/gs$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/gs$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/run$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/run$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/run$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/run$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/run$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/run$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/run$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$8$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$8$$anonfun$apply$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$9$$anonfun$apply$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$generateNormalizedData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$generateNormalizedData$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$generateNormalizedData$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$generateNormalizedData$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$getRawLabels$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$getRawLabels$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$getRawLabels$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$getRawLabels$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$readHeader$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$readHeader$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$anonfun$test$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$typecreator1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$typecreator1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$typecreator1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor$$typecreator1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/global/util/dataProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/MAD$$anonfun$run$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/MAD$$anonfun$run$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/MAD$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/MAD$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/MAD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/MAD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/adsorption$$anonfun$run$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/adsorption$$anonfun$run$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/adsorption$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/adsorption$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/adsorption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/local/algorithm/adsorption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/global/graph/knnGraph.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/global/graph/knnGraph.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/global/run.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/global/run.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -134,7 +42,56 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/local/run.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-323">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+              <folding>
+                <element signature="e#15#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/global/run.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="778">
+              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <folding>
+                <element signature="e#16#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/global/gs.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+              <folding>
+                <element signature="e#16#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/global/graph/knnGraph.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#22#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -224,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/global/algorithm/LabelPropagation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/local/test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/global/sishewuru.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/global/graph/knnGraph.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/local/l.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/local/graph/localGraph.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/local/ls.scala" />
@@ -241,8 +197,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/global/runLP.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/global/util/DataProcessor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/global/test3.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/global/run.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/local/runLP.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/global/graph/knnGraph.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/global/run.scala" />
       </list>
     </option>
   </component>
@@ -320,7 +277,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="global" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Graph-Based-SSL-Spark" type="b2602c69:ProjectViewProjectNode" />
@@ -329,15 +286,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="local" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Graph-Based-SSL-Spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Graph-Based-SSL-Spark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -571,12 +519,12 @@
       <workItem from="1555035390005" duration="149000" />
       <workItem from="1555047922048" duration="5421000" />
       <workItem from="1557897609024" duration="30000" />
-      <workItem from="1557897764113" duration="13702000" />
+      <workItem from="1557897764113" duration="14889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="542130000" />
+    <option name="totallyTimeSpent" value="543317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,6 +537,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1216" height="774" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21124361" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -704,16 +653,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/skin250K_t.data" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/global/graph/knnGraph.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
-          <folding>
-            <element signature="e#22#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/local/graph/localGraph.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -883,26 +822,6 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/global/gs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding>
-            <element signature="e#16#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/global/run.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-          <folding>
-            <element signature="e#16#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/global/test3.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -930,16 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/local/run.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1395">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#15#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/local/ls.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -957,6 +866,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/local/run.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="e#15#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/global/graph/knnGraph.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#22#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/global/gs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <element signature="e#16#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/global/run.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="e#16#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -964,13 +913,13 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="library" />
-              <type id="artifact" />
               <type id="javaee-facet-resources" />
+              <type id="artifact" />
+              <type id="library" />
               <type id="jpa-descriptors" />
             </show-content>
           </artifact-editor>
-          <last-edited>Graph-Based-SSL-Spark:jar</last-edited>
+          <last-edited>jarPackage</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
