@@ -26,10 +26,10 @@ object g {
       .master("spark://grond:7077")
       .getOrCreate()
 
-    val headerPath = args(0)
-    val dataPath = args(1)
-    val traPath = args(2)
-//    val algorithm = args(4)
+    val headerPath = "src/main/resource/skin.header"
+    val dataPath = "src/main/resource/skin1.data"
+    val traPath = "src/main/resource/skin2.data"
+    val algorithm = args(6)
     val k = args(3).toInt
     val maxIter = args(4).toInt
     val numPartitions = args(5).toInt
@@ -45,38 +45,15 @@ object g {
 
     // Graph Construction
     val g = knnGraph(trainingDF).bruteForce(k).persist()
-//    val g = knnGraph(trainingDF).approximate(k).persist()
-    g.edges.collect()
-    val Stage2time = (System.nanoTime - InitialTime)/ 1e9
-    println("Graph Construction Time: " + Stage2time)
 
     // Learning and Inference
     val gs = labelPropagation(g).run(maxIter).persist()
-    gs.edges.collect()
-    val Stage3time = (System.nanoTime - InitialTime)/ 1e9
-    println("// Learning and Inference Time: " + Stage3time)
 
     // Get result of labelled data
-    val a = gs.vertices.collect().sortWith((a,b) => a._1 < b._1).map(_._2)
-    val b = originalDF.select("class").collect().map(_.toSeq.toArray).flatten.map(_.toString.toInt).map(x => Option(x))
-
-    val numTrain = trainingDF.count()
-    val num_labeled = numTrain * 0.1
-
-    var i = 0
-    var result = 0
-    for (r <- a) {
-      if (i > numTrain && r == b(i))
-        result += 1
-      i += 1
-    }
-
-    println("correct: " + result)
-    println("accuracy: " + result/(numTrain - num_labeled))
+    val result = gs.vertices.collect().sortWith((a,b) => a._1 < b._1).map(_._2)
 
     spark.stop()
     sc.stop()
-
   }
 }
 

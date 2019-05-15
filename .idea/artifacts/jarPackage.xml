@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jarPackage">
+    <output-path>$PROJECT_DIR$/out/artifacts/jarPackage</output-path>
+    <root id="archive" name="Graph-Based-SSL-Spark.jar">
+      <element id="module-output" name="Graph-Based-SSL-Spark-build" />
+      <element id="module-output" name="Graph-Based-SSL-Spark" />
+    </root>
+  </artifact>
+</component>

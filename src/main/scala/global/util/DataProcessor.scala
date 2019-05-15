@@ -19,7 +19,7 @@ class dataProcessor (sc: SparkContext, spark: SparkSession) extends Serializable
 
   val class2IntMap = HashMap[String, Int]()
   val int2ClassMap = HashMap[Int, String]()
-  var dummyLabels = Array[Int]()
+  val dummyLabels = HashMap[Int, Double]()
 
   var colNames = Seq[String]()
 
@@ -37,7 +37,7 @@ class dataProcessor (sc: SparkContext, spark: SparkSession) extends Serializable
 
     classes.foreach(x => if (x._1 != "unlabeled") class2IntMap += x._1 -> x._2)
     classes.foreach(x => if (x._1 != "unlabeled") int2ClassMap += x._2 -> x._1)
-    dummyLabels = classes.map(_._1.toInt)
+    classes.foreach(x => if (x._1 != "unlabeled") dummyLabels += x._1.toInt -> 1/class2IntMap.size)
 
     val inputLine = lines.find(_.contains("@inputs")).get
     val inputs = inputLine.replace("@inputs ","").split(",").map(_.replace(" ", ""))
@@ -58,6 +58,19 @@ class dataProcessor (sc: SparkContext, spark: SparkSession) extends Serializable
     }.persist()
 
     parsedData.filter{case (id, _) =>  id+1 > numLabeled}.map(_._2).map(_.toInt).collect()
+  }
+
+  def getSupervisedLabels(path: String, numLabeled: Int) = {
+
+    val trainingData = sc.textFile(path).zipWithIndex().map(a => (a._2,a._1))
+
+    val parsedData = trainingData.map { line =>
+      val parts = line._2.split(',')
+      (line._1,parts.last)
+    }.persist()
+
+    parsedData.filter{case (id, _) =>  id+1 <= numLabeled}.map(_._2).map(_.toInt).collect()
+
   }
 
   def generateNormalizedDataFrame(path: String, numPartitions: Int) = {

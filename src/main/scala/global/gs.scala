@@ -59,8 +59,8 @@ object gs {
         println("Graph Construction Time: " + (Stage2time-Stage1time))
 
         // Learning and Inference
-        val gs = adsorption(g,2).run(maxIter).persist()
-//        val gs = labelPropagation(g).run(maxIter).persist()
+//        val gs = adsorption(g,2).run(maxIter).persist()
+        val gs = labelPropagation(g).run(maxIter).persist()
         gs.vertices.collect()
         val Stage3time = (System.nanoTime - InitialTime) / 1e9
         println("Learning and Inference Time: " + (Stage3time - Stage2time))
