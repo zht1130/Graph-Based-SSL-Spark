@@ -25,7 +25,8 @@ We have already tested it in the environment of Scala 2.11, Spark 2.40, JDK 1.8 
 
 This software has two mode: local and global.
 
-
+- Graph construction: brute-force knn (both), spill-tree-based knn (global mode only).
+- Inferring algorithms: Label propagation, Adsorption, Modified Adsorption.
 
 ### Local method
 
@@ -51,7 +52,7 @@ spark-submit --class local.run Graph-Based-SSL-Spark.jar "path-to-header" "path-
 spark-submit --class global.run Graph-Based-SSL-Spark.jar "path-to-header" "path-to-raw" "path-to-train" "path-to-output" "graph-algorithm" "inferring-algorithm" "number-of-neighbors" "number-of-maps" ("mu1" "mu2" "mu3")
 ```
 
-- ```--class local.run Graph-Based-SSL-Spark.jar``` Determine the jar file to be run.
+- ```--class global.run Graph-Based-SSL-Spark.jar``` Determine the jar file to be run.
 - ```"path-to-header"``` Path from HDFS to header.
 - ```"path-to-raw"``` Path from HDFS to raw data set.
 - ```"path-to-train"``` Path from HDFS to training set.
