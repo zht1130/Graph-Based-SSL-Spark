@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b9174ed-3686-4253-b41e-e0803d423b77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/global/graph/knnGraph.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/global/graph/knnGraph.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/global/run.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/global/run.scala" afterDir="false" />
-    </list>
+    <list default="true" id="7b9174ed-3686-4253-b41e-e0803d423b77" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -58,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/global/run.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+            <state relative-caret-position="182">
+              <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="e#16#65#0" expanded="true" />
               </folding>
@@ -217,6 +213,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="19" />
     <option name="y" value="23" />
     <option name="width" value="1216" />
     <option name="height" value="774" />
@@ -519,12 +516,12 @@
       <workItem from="1555035390005" duration="149000" />
       <workItem from="1555047922048" duration="5421000" />
       <workItem from="1557897609024" duration="30000" />
-      <workItem from="1557897764113" duration="14889000" />
+      <workItem from="1557897764113" duration="15117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="543317000" />
+    <option name="totallyTimeSpent" value="543545000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,8 +895,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/global/run.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state relative-caret-position="182">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="e#16#65#0" expanded="true" />
           </folding>

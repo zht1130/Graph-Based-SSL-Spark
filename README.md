@@ -31,7 +31,7 @@ This software has two mode: local and global.
 ### Local method
 
 ```
-spark-submit --class local.run Graph-Based-SSL-Spark.jar "path-to-header" "path-to-raw" "path-to-train" "path-to-output" "inferring-algorithm" "number-of-neighbors" "number-of-maps" ("mu1" "mu2" "mu3")
+spark-submit --packages org.jgrapht:jgrapht-core:1.3.0 --class local.run Graph-Based-SSL-Spark.jar "path-to-header" "path-to-raw" "path-to-train" "path-to-output" "inferring-algorithm" "number-of-neighbors" "number-of-iterations" "number-of-maps" ("mu1" "mu2" "mu3")
 ```
 
 - ```--class local.run Graph-Based-SSL-Spark.jar``` Determine the jar file to be run.
@@ -39,17 +39,18 @@ spark-submit --class local.run Graph-Based-SSL-Spark.jar "path-to-header" "path-
 - ```"path-to-raw"``` Path from HDFS to raw data set.
 - ```"path-to-train"``` Path from HDFS to training set.
 - ```"path-to-output"``` Path from HDFS to the output.
-- ```"inferring-algorithm"``` Inferring algorithm: lp or adsorption or mad
+- ```"inferring-algorithm"``` Inferring algorithm: lp or adsorption or mad.
 - ```"number-of-neighbors"``` Number of neighbors. The value of k.
+- ```"number-of-iterations"``` Number of iterations in inferring algorithm. 
 - ```"number-of-maps"``` Number of map tasks.
-- ```"mu1" "mu2" "mu3"``` Optional parameters. Settings are required only when using the MAD algorithm
+- ```"mu1" "mu2" "mu3"``` Optional parameters. Settings are required only when using the MAD algorithm.
 
 
 
 ### Global method
 
 ```
-spark-submit --class global.run Graph-Based-SSL-Spark.jar "path-to-header" "path-to-raw" "path-to-train" "path-to-output" "graph-algorithm" "inferring-algorithm" "number-of-neighbors" "number-of-maps" ("mu1" "mu2" "mu3")
+spark-submit --class global.run Graph-Based-SSL-Spark.jar "path-to-header" "path-to-raw" "path-to-train" "path-to-output" "graph-algorithm" "inferring-algorithm" "number-of-neighbors" "number-of-iterations" "number-of-maps" ("mu1" "mu2" "mu3")
 ```
 
 - ```--class global.run Graph-Based-SSL-Spark.jar``` Determine the jar file to be run.
@@ -60,6 +61,7 @@ spark-submit --class global.run Graph-Based-SSL-Spark.jar "path-to-header" "path
 - ```"graph-algorithm"``` Graph construction algorithm: approximate or bruteForce
 - ```"inferring-algorithm"``` Inferring algorithm: lp or adsorption or mad
 - ```"number-of-neighbors"``` Number of neighbors. The value of k.
+- ```"number-of-iterations"``` Number of iterations in inferring algorithm. 
 - ```"number-of-maps"``` Number of map tasks.
 - ```"mu1" "mu2" "mu3"``` Optional parameters. Settings are required only when using the MAD algorithm
 
